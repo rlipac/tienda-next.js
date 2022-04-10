@@ -1,0 +1,49 @@
+.contenido {
+    padding: 10rem;
+   
+}
+
+.contenido h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.fecha {
+    font-size: 1.6rem;
+    color: var(--primary);
+   
+}
+.resumen {
+   
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.enlace {
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:1.2rem;
+    font-weight: 900;
+    color: var(--negro);
+    border: 2px solid var(--primary);
+    padding: 1rem 5rem;
+   
+}
+
+.enlace:hover {
+    background-color: var(--primary);
+    color: var(--blanco);
+    transition: .3s;
+    
+}
+.texto{
+    white-space: pre-wrap;
+}
